@@ -10,8 +10,6 @@ jobs:
   release:
     name: "Release"
     runs-on: "ubuntu-latest"
-    if: github.repository_owner == 'puppetlabs'
-
     steps:
 
       - name: "Checkout"
