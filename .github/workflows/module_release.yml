@@ -45,7 +45,7 @@ jobs:
           EOF
 
       - name: "PDK build"
-        uses: "docker://puppet/pdk:3.3.0.0"
+        uses: "docker://puppet/pdk:3.4.0.1.64.ge5fd1ee"
         with:
           args: "build"
 
